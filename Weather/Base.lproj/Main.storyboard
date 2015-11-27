@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
@@ -24,15 +25,18 @@
                                         <subviews>
                                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wXt-Gq-R2t">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                                <animations/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQA-ax-13f">
                                                 <rect key="frame" x="258" y="181" width="85" height="72"/>
+                                                <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cmx-la-sWZ">
                                                 <rect key="frame" x="252" y="283" width="96" height="33"/>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="33" id="enV-bJ-GCy"/>
                                                     <constraint firstAttribute="width" constant="96" id="yx8-SO-FKd"/>
@@ -43,6 +47,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv8-Cu-YEi">
                                                 <rect key="frame" x="252" y="340" width="96" height="33"/>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="33" id="2WH-Lz-Dfx"/>
                                                     <constraint firstAttribute="width" constant="96" id="WjZ-OO-zej"/>
@@ -53,6 +58,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最高温度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGB-ae-DUu">
                                                 <rect key="frame" x="54" y="283" width="96" height="33"/>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="33" id="gPP-7v-NjU"/>
                                                     <constraint firstAttribute="width" constant="96" id="r2L-JF-8Xy"/>
@@ -63,6 +69,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最低温度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhB-fQ-yPZ">
                                                 <rect key="frame" x="54" y="340" width="96" height="33"/>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="96" id="SHR-z8-lBS"/>
                                                     <constraint firstAttribute="height" constant="33" id="YfG-UB-0jo"/>
@@ -73,6 +80,7 @@
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohZ-aq-vXI">
                                                 <rect key="frame" x="526" y="43" width="45" height="31"/>
+                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="45" id="6Zv-go-6Tc"/>
                                                     <constraint firstAttribute="height" constant="31" id="Zf6-ji-4Fc"/>
@@ -83,6 +91,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstItem="GhB-fQ-yPZ" firstAttribute="top" secondItem="RGB-ae-DUu" secondAttribute="bottom" constant="24" id="04V-xI-swi"/>
                                             <constraint firstItem="kv8-Cu-YEi" firstAttribute="centerX" secondItem="lah-HZ-bkp" secondAttribute="centerX" id="2EU-FD-VhO"/>
@@ -101,11 +110,13 @@
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城市名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zV-n0-HwL">
                                         <rect key="frame" x="274" y="122" width="51" height="20.5"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <animations/>
                                 <constraints>
                                     <constraint firstItem="lah-HZ-bkp" firstAttribute="top" secondItem="UkT-wx-VhW" secondAttribute="top" id="Pro-Sp-U9U"/>
                                     <constraint firstItem="lah-HZ-bkp" firstAttribute="centerX" secondItem="UkT-wx-VhW" secondAttribute="centerX" id="b5a-Rs-GV9"/>
@@ -117,6 +128,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UkT-wx-VhW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="61b-Cz-4gG"/>
@@ -145,10 +157,12 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2E3-OP-HMb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" placeholder="输入城市的全拼来添加城市" id="yw9-6F-ko2">
                             <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <animations/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
                                 <outlet property="delegate" destination="uFp-uC-pjF" id="4aI-k9-IDC"/>
@@ -161,7 +175,9 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bms-Lc-RCh" id="cwO-1T-OZf">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
                                 </tableViewCellContentView>
+                                <animations/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -201,6 +217,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JRe-CC-5bO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="uFp-uC-pjF" kind="relationship" relationship="rootViewController" id="9TG-mP-4B4"/>

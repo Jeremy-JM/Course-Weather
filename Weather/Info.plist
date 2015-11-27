@@ -27,6 +27,12 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>我们需要通过你的地理位置来获取周边的信息</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>我们需要通过你的地理位置来获取周边的信息</string>
+	<key>Test</key>
+	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
